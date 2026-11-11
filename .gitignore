@@ -1,0 +1,27 @@
+﻿# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# Large data / ROS bags
+*.db3
+*.mcap
+*.bag
+*.pt
+*.pth
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime and experiment logs (keep locally)
+*.log
